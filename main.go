@@ -23,10 +23,10 @@ func createFile() {
 }
 
 /*
-		permission:
-		os.O_RDONLY -> open the file read-only. (0)
-	    os.O_WRONLY -> open the file write-only. (1)
-	    os.O_RDWR   -> open the file read-write. (2)
+	permission:
+	os.O_RDONLY -> open the file read-only. (0)
+	os.O_WRONLY -> open the file write-only. (1)
+	os.O_RDWR   -> open the file read-write. (2)
 */
 
 func writeFile() {
